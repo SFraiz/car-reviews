@@ -1,0 +1,22 @@
+<h1>Reviews</h1>
+
+<ul>
+	
+	<% @reviews.each do |review| %>
+		<li>
+			<div id="review">
+				User: <%= review.user_id %><br>
+				Car: <%= review.car_id %><br>
+				Year: <%= review.model_year %><br>
+				Car kilometers: <%= review.kilometers %> km<br>
+				Fuel type: <%= review.fuel_type %><br>
+				Engine type: <%= review.engine_type %><br>
+				Horsepower: <%= review.horsepower %> hp<br><br>
+				Comment:<br>
+				<div id="review-comment">
+					<%= review.comment %>
+				</div>
+			</div>
+		</li>
+	<% end %>
+</ul>

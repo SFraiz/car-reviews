@@ -1,0 +1,32 @@
+<h1><%= image_tag @user.profile_picture.url(:medium) %> <%= @user.nickname %></h1>
+
+<% if current_user.id == @user.id %>
+	<%= link_to 'Edit', edit_user_registration_path %>
+	<%= link_to 'Delete', "/users/#{@user.id}", method: :delete, data: { confirm: 'Are you sure?' } %><br>
+	<%= link_to 'New Review', new_review_path %>
+<% end %><br>
+
+<ul>
+	<% @user.reviews.each do |review| %>
+		<li>
+			<div id="review">
+				User: <%= review.user_id %><br>
+				Car: <%= review.car_id %><br>
+				Year: <%= review.model_year %><br>
+				Car kilometers: <%= review.kilometers %> km<br>
+				Fuel type: <%= review.fuel_type %><br>
+				Engine type: <%= review.engine_type %><br>
+				Horsepower: <%= review.horsepower %> hp<br><br>
+				Comment:<br>
+				<div id="review-comment">
+					<%= review.comment %>
+				</div>
+			</div>
+		</li>
+	<% end %>
+</ul>
+
+<% if current_user.id == @user.id %>
+	<%= link_to 'Edit', edit_review_path %>
+	<%= link_to 'Delete', "/users/#{@user.reviews.ids}", method: :delete, data: { confirm: 'Are you sure?' } %><br>
+<% end %>

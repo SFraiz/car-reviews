@@ -1,0 +1,8 @@
+<h1>Users</h1>
+<ul>
+<% @users.each do |user| %>
+	<li>
+		<%= image_tag user.profile_picture.url(:thumb) %> <%= user.nickname %> - <%= link_to 'Profile', user_path(user.id) %>
+	</li>
+<% end %>
+</ul>

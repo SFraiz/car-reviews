@@ -13,3 +13,88 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	background-image: url("asfalt.jpg") !important;
+	background: #FDE7CC ;
+}
+
+
+#header-image {
+	width: 100%;
+}
+
+.navbar.navbar-light.bg-faded {
+	float: left;
+	width: 100%;
+}
+
+.navbar-nav {
+	width: 100%;
+	box-sizing: border-box;
+}
+.nav-item {
+	border: 1px solid black;
+ 	box-sizing: border-box;
+	width: 20%;
+}
+
+#nav-link {
+	text-align: center;
+	font-size: 150%;
+	color: #F3FC4E;
+	background-color: #FF9C23;
+}
+
+#nav-link:hover {
+	text-align: center;
+	color: #F3FC4E;
+	background-color: #FCB358;
+}
+
+.clearfix {
+	clear: both;
+	margin-left: 0px;
+}
+
+.container {
+	background-color: white; 
+	padding: 0px;
+	border: 1px solid black;
+	margin-bottom: 5%;
+}
+
+ .container h1 {
+ 	font-family: fantasy;
+ 	font-size: 600%;
+ }
+
+ .container ul {
+ 	font-size: 200%;
+ 	list-style: none;
+ }
+
+ div #review {
+ 	font-size: 20px;
+ 	border: 1px solid black;
+ 	padding: 2%;
+ 	margin-top: 5%;
+ }
+
+ div #review-comment {
+ 	border: 1px solid black;
+ 	padding: 1%;
+ }
+
+ footer {
+ 	position: fixed;
+ 	bottom: 0px;
+ 	width: 100%;
+ 	background-color: gray;
+ 	color: #FCB358;
+ 	height: 5%;
+ }
+
+ footer p .text-center { 
+ 	margin: 0 auto;
+ }

@@ -1,1 +1,21 @@
-<h2>Welcome to my car reviews</h2>
+<h2>Choose the brand and model of the review you want to see!</h2>
+
+<div class="all_brands">
+	<a href="/reviews">
+		<% @cars.pluck(:brand).uniq.each do |car| %>
+			<div class="brand">	
+				<img src="/assets/Brands/<%= car+'.jpg' %>" id="brand"><br>
+				<p class="text-center"><%= car %></p>
+			</div>		
+		<% end %>
+	</a>
+</div>
+<div class="all_models">
+	<% @cars.each do |car| %>
+		<div class="brand">	
+			<img src="/assets/Models/<%= car.model_photo %>" id="model"><br>
+			<p class="text-center"><%= car.model %></p>
+		</div>		
+	<% end %>
+</div>
+

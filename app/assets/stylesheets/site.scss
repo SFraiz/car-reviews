@@ -1,3 +1,32 @@
 // Place all the styles related to the site controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+div {
+  .all_brands {
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .brand {
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+    margin: 2%;
+    p {
+      width: 20%;
+    }
+    img {
+      max-width: 100px;
+      max-height: 100px;
+      margin-right: 0px;
+      float: left;
+    }
+  }
+  .all_models {
+    border: 1px solid black;
+    box-sizing: border-box;
+    clear: both;
+  }
+}

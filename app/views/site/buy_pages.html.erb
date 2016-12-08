@@ -1,0 +1,10 @@
+<h1>Official pages:</h1>
+
+
+<ul>
+	<% @cars.pluck(:brand).uniq.each do |car| %>
+		<li>
+			<img src="/assets/Brands/<%= car+'.jpg' %>" id="buy_pages_img"> - <%= car %>
+		</li>
+	<% end %>
+</ul>

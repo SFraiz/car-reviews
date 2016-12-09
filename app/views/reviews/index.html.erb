@@ -4,18 +4,30 @@
 	
 	<% @reviews.each do |review| %>
 		<li>
-			<div id="review">
-				User: <%= review.user_id %><br>
-				Car: <%= review.car_id %><br>
-				Year: <%= review.model_year %><br>
-				Car kilometers: <%= review.kilometers %> km<br>
-				Fuel type: <%= review.fuel_type %><br>
-				Engine type: <%= review.engine_type %><br>
-				Horsepower: <%= review.horsepower %> hp<br><br>
-				Comment:<br>
-				<div id="review-comment">
-					<%= review.comment %>
+			<div class="row" id="review">
+				<div class="col-md-1 col-md-offset-1">
 				</div>
+				<div class="col-md-3">
+					User: <%= review.user_id %><br>
+					Car: <%= review.car_id %><br>
+					Fuel type: <%= review.fuel_type %>
+				</div>
+				<div class="col-md-3">
+					Car year: <%= review.model_year %><br>
+					Car: <%= review.car_id %><br>
+					Engine type: <%= review.engine_type %>
+				</div>
+				<div class="col-md-3">
+					<p class="text-right"><%= review.punctuation %> <span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
+					kilometers: <%= review.kilometers %> km<br>
+					Horsepower: <%= review.horsepower %> hp<br><br>
+				</div>
+				<div class="col-md-12">
+						Comment:<br>
+						<div id="review-comment">	
+						<%= review.comment %>
+						</div>
+					</div>
 			</div>
 		</li>
 	<% end %>

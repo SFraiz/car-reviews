@@ -19,7 +19,6 @@ body {
 	background: #FDE7CC ;
 }
 
-
 #header-image {
 	width: 100%;
 }
@@ -64,37 +63,47 @@ body {
 	margin-bottom: 5%;
 }
 
- .container h1 {
- 	font-family: fantasy;
- 	font-size: 600%;
- }
+.container h1 {
+	font-family: fantasy;
+	font-size: 600%;
+}
 
- .container ul {
+.container ul {
  	font-size: 200%;
  	list-style: none;
- }
+}
 
- div #review {
+.container ul li a {
+ 	font-size: 50%;
+ 	color: black;
+}
+
+div #review {
  	font-size: 20px;
  	border: 1px solid black;
  	padding: 2%;
  	margin-top: 5%;
- }
+ 	margin-right: 15px;
+}
 
- div #review-comment {
+div #review p {
+	margin-bottom: 0px;
+}
+
+div #review-comment {
  	border: 1px solid black;
  	padding: 1%;
- }
+}
 
- footer {
+footer {
  	position: fixed;
  	bottom: 0px;
  	width: 100%;
  	background-color: gray;
  	color: #FCB358;
  	height: 5%;
- }
+}
 
- footer p .text-center { 
+footer p .text-center { 
  	margin: 0 auto;
- }
+}

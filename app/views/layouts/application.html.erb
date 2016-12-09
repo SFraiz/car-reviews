@@ -37,10 +37,16 @@
     
     <div class="container clearfix" id="container">
     	<% if user_signed_in? %>
-    		<h2>Welcome <%= current_user.nickname %></h2>
-    		<%= link_to 'Logout', destroy_user_session_path, method: 'DELETE' %>
+    		Welcome <%= current_user.nickname %>,
+    		<%= link_to destroy_user_session_path, method: 'DELETE' do %>
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Logout
+        <% end %>
     	<% else %>
     		<h2>Nobody logged in</h2>
+        <%= link_to new_user_session_path, method: 'GET' do %> 
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Login |
+        <% end %>
+        <%= link_to 'Sign up', new_user_registration_path, method: 'GET' %> 
     	<% end %>
       <%= yield %>
     </div>

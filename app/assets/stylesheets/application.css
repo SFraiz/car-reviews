@@ -16,7 +16,6 @@
 
 body {
 	background-image: url("asfalt.jpg") !important;
-	background: #FDE7CC ;
 }
 
 #header-image {
@@ -75,6 +74,9 @@ body {
 
 .container ul li a {
  	font-size: 50%;
+}
+
+.container a {
  	color: black;
 }
 
@@ -84,6 +86,10 @@ div #review {
  	padding: 2%;
  	margin-top: 5%;
  	margin-right: 15px;
+}
+
+div #review img {
+	box-sizing: border-box;
 }
 
 div #review p {

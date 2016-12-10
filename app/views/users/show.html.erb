@@ -7,29 +7,33 @@
 	<%= link_to "/users/#{@user.id}", method: :delete, data: { confirm: 'Are you sure?' } do %> 
     Delete <span class="glyphicon glyphicon-trash" aria-hidden="true"></span><br>
   <% end %>
-	<%= link_to new_review_path, method: :delete, data: { confirm: 'Are you sure?' } do %> 
+	<%= link_to new_review_path, method: 'GET' do %> 
     New Review <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
   <% end %>
 <% end %><br>
 
 <ul>
-	<% @user.reviews.each do |review| %>
+	<% @user.reviews.sort_by(&:updated_at).reverse!.each do |review| %>
 		<li>
 			<div class="row" id="review">
-				<div class="col-md-1 col-md-offset-1">
+				<div class="col-md-3">
+					<img src="/assets/Models/<%= review.car.model_photo %>" alt="">
 				</div>
 				<div class="col-md-3">
-					User: <%= review.user_id %><br>
-					Car: <%= review.car_id %><br>
+					By: <%= review.user.nickname %><br>
+					Brand: <%= review.car.brand %><br>
 					Fuel type: <%= review.fuel_type %>
 				</div>
 				<div class="col-md-3">
 					Car year: <%= review.model_year %><br>
-					Car: <%= review.car_id %><br>
+					Model: <%= review.car.model %><br>
 					Engine type: <%= review.engine_type %>
 				</div>
 				<div class="col-md-3">
-					<p class="text-right"><%= review.punctuation %> <span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
+					<p class="text-right">
+					<%= review.punctuation %> 
+					<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</p>
 					kilometers: <%= review.kilometers %> km<br>
 					Horsepower: <%= review.horsepower %> hp<br><br>
 				</div>

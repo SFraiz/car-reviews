@@ -1,10 +1,69 @@
-<h1>Official pages:</h1>
+<h1>Official websites:</h1><br>
 
 
-<ul>
-	<% @cars.pluck(:brand).uniq.each do |car| %>
-		<li>
-			<img src="/assets/Brands/<%= car+'.jpg' %>" id="buy_pages_img"> - <%= car %>
-		</li>
+<ul class="row brands-list">
+	<% @cars.pluck(:brand, :web).uniq.each do |brand| %>
+
+<li class="col-sm-4">
+	 <div class="thumbnail">
+	 <img src="/assets/Brands/<%= brand[0]+'.jpg'%>" alt="">
+      <div class="caption">
+        <p><a href="<%=brand[1]%>" class="btn btn-primary" role="button">Visit website</a> </p>
+      </div>
+    </div>
+</li>
 	<% end %>
+
+</ul>
+
+<h1>Other websites:</h1><br>
+<ul class="row brands-list">
+	<li class="col-sm-4">
+		 <div class="thumbnail">
+		 <img src="/assets/Websites/Coches-net.jpg" alt="">
+	      <div class="caption">
+	        <p><a href="http://www.coches.net/" class="btn btn-primary" role="button">Visit website</a> </p>
+	      </div>
+	    </div>
+	</li>
+	<li class="col-sm-4">
+		 <div class="thumbnail">
+		 <img src="/assets/Websites/autoscout24.jpg" alt="">
+	      <div class="caption">
+	        <p><a href="https://www.autoscout24.es/" class="btn btn-primary" role="button">Visit website</a> </p>
+	      </div>
+	    </div>
+	</li>
+	<li class="col-sm-4">
+		 <div class="thumbnail">
+		 <img src="/assets/Websites/coches.png" alt="">
+	      <div class="caption">
+	        <p><a href="http://www.coches.com/" class="btn btn-primary" role="button">Visit website</a> </p>
+	      </div>
+	    </div>
+	</li>
+	<li class="col-sm-4">
+		 <div class="thumbnail">
+		 <img src="/assets/Websites/autocasion.jpg" alt="">
+	      <div class="caption">
+	        <p><a href="http://www.autocasion.com/" class="btn btn-primary" role="button">Visit website</a> </p>
+	      </div>
+	    </div>
+	</li>
+	<li class="col-sm-4">
+		 <div class="thumbnail">
+		 <img src="/assets/Websites/vibbo.jpg" alt="">
+	      <div class="caption">
+	        <p><a href="http://www.vibbo.com/motor-de-segunda-mano/" class="btn btn-primary" role="button">Visit website</a> </p>
+	      </div>
+	    </div>
+	</li>
+	<li class="col-sm-4">
+		 <div class="thumbnail">
+		 <img src="/assets/Websites/wallapop.jpg" alt="">
+	      <div class="caption">
+	        <p><a href="http://es.wallapop.com/list/coches-y-motos" class="btn btn-primary" role="button">Visit website</a> </p>
+	      </div>
+	    </div>
+	</li>
 </ul>

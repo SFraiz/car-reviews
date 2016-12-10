@@ -30,3 +30,27 @@ div {
     clear: both;
   }
 }
+
+
+.brands-list {
+  .thumbnail img {
+    margin: 0 auto;
+    width: 200px;
+    display: inline;
+  }
+  text-align: center;
+  a {
+    color: white;
+  }
+  .thumbnail {
+    height: 335px;
+    position: relative;
+    line-height: 335px;
+  }
+  a {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+  }
+}

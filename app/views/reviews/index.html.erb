@@ -1,20 +1,20 @@
 <h1>Reviews</h1>
 
 <ul>
-	
-	<% @reviews.each do |review| %>
+	<% @reviews.sort_by(&:updated_at).reverse!.each do |review| %>
 		<li>
 			<div class="row" id="review">
-				<div class="col-md-1 col-md-offset-1">
+				<div class="col-md-3">
+					<img src="/assets/Models/<%= review.car.model_photo %>" alt="">
 				</div>
 				<div class="col-md-3">
-					User: <%= review.user_id %><br>
-					Car: <%= review.car_id %><br>
+					By: <%= review.user.nickname %><br>
+					Brand: <%= review.car.brand %><br>
 					Fuel type: <%= review.fuel_type %>
 				</div>
 				<div class="col-md-3">
 					Car year: <%= review.model_year %><br>
-					Car: <%= review.car_id %><br>
+					Model: <%= review.car.model %><br>
 					Engine type: <%= review.engine_type %>
 				</div>
 				<div class="col-md-3">

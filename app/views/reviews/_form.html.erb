@@ -2,12 +2,12 @@
 
   <% if @review.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@review.errors.count, "error") %> prohibited this review from being saved:</h2>
+      <%= pluralize(@review.errors.count, "error") %> prohibited this review from being saved:
 
       <ul>
-      <% @review.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
+        <% @review.errors.full_messages.each do |message| %>
+        <li><p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><%= message %></p></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
@@ -43,7 +43,7 @@
   </div>
 
   <div class="field">
-    <%= f.label :punctuation %> <i>(number from 1 to 5)</i><br>
+    <%= f.label :punctuation %> <i>(number from 0 to 5)</i><br>
     <%= f.text_field :punctuation %>
   </div>
 

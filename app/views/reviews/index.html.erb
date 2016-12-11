@@ -1,5 +1,10 @@
 <h1>Reviews</h1>
 
+<%= form_for(:search, url: reviews_path, html: { method: 'GET'}) do |f| %>  
+    <%= f.text_field :keywords, {placeholder: "model"} %>
+    <%= f.button "Search" %>
+<% end %>
+
 <ul>
 	<% @reviews.sort_by(&:updated_at).reverse!.each do |review| %>
 		<li>

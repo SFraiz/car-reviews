@@ -1,7 +1,13 @@
 class ReviewsController < ApplicationController
 
 	def index
-    	@reviews = Review.all
+    
+    if params[:search].present?
+      car = Car.find_by("lower(model) LIKE ?", "%#{params[:search][:keywords]}%".downcase)
+    	@reviews = car.reviews
+    else
+      @reviews = Review.all
+    end
 	end
 
 	def new

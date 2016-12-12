@@ -1,57 +1,23 @@
-<h1><%= image_tag @user.profile_picture.url(:medium) %> <%= @user.nickname %></h1>
+<div class="profile-header">	
+	<h1><%= image_tag @user.profile_picture.url(:medium) %> <%= @user.nickname %></h1>
 
-<% if current_user.id == @user.id %>
-	<%= link_to edit_user_registration_path, method: 'GET' do %> 
-    Edit <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-  <% end %>
-	<%= link_to "/users/#{@user.id}", method: :delete, data: { confirm: 'Are you sure?' } do %> 
-    Delete <span class="glyphicon glyphicon-trash" aria-hidden="true"></span><br>
-  <% end %>
-	<%= link_to new_review_path, method: 'GET' do %> 
-    New Review <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-  <% end %>
-<% end %><br>
+	<% if current_user.id == @user.id %>
+		<%= link_to edit_user_registration_path, :class => 'btn btn-primary btn-xs', method: 'GET' do %> 
+	    Edit <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+	  <% end %>
+		<%= link_to "/users/#{@user.id}", :class => 'btn btn-primary btn-xs', method: :delete, data: { confirm: 'Are you sure?' } do %> 
+	    Delete <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+	  <% end %><br><br>
+		<%= link_to new_review_path, :class => 'btn btn-primary btn-sm',  method: 'GET' do %> 
+	    New Review <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+	  <% end %>
+	<% end %><br>
+</div>
 
 <ul>
 	<% @user.reviews.sort_by(&:updated_at).reverse!.each do |review| %>
-		<li>
-			<div class="row" id="review">
-				<div class="col-md-3">
-					<img src="/assets/Models/<%= review.car.model_photo %>" alt="">
-				</div>
-				<div class="col-md-3">
-					By: <%= review.user.nickname %><br>
-					Brand: <%= review.car.brand %><br>
-					Fuel type: <%= review.fuel_type %>
-				</div>
-				<div class="col-md-3">
-					Car year: <%= review.model_year %><br>
-					Model: <%= review.car.model %><br>
-					Engine type: <%= review.engine_type %>
-				</div>
-				<div class="col-md-3">
-					<p class="text-right">
-					<%= review.punctuation %> 
-					<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-					</p>
-					kilometers: <%= review.kilometers %> km<br>
-					Horsepower: <%= review.horsepower %> hp<br><br>
-				</div>
-				<div class="col-md-12">
-					Comment:<br>
-					<div id="review-comment">	
-						<%= review.comment %>
-					</div>
-				</div>
-			</div>
-			<% if current_user.id == @user.id %>
-				<%= link_to edit_review_path(review.id), method: 'GET' do %> 
-    			Edit <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-  			<% end %>
-				<%= link_to review_path(review.id), method: :delete, data: { confirm: 'Are you sure?' } do %> 
-    			Delete <span class="glyphicon glyphicon-trash" aria-hidden="true"></span><br>
-  			<% end %>
-			<% end %>
-		</li>
+		<% @review = review %> 
+		<%= render "reviews/print-reviews" %>
 	<% end %>
+
 </ul>

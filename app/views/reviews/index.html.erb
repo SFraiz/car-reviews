@@ -7,33 +7,8 @@
 
 <ul>
 	<% @reviews.sort_by(&:updated_at).reverse!.each do |review| %>
-		<li>
-			<div class="row" id="review">
-				<div class="col-md-3">
-					<img src="/assets/Models/<%= review.car.model_photo %>" alt="">
-				</div>
-				<div class="col-md-3">
-					By: <%= review.user.nickname %><br>
-					Brand: <%= review.car.brand %><br>
-					Fuel type: <%= review.fuel_type %>
-				</div>
-				<div class="col-md-3">
-					Car year: <%= review.model_year %><br>
-					Model: <%= review.car.model %><br>
-					Engine type: <%= review.engine_type %>
-				</div>
-				<div class="col-md-3">
-					<p class="text-right"><%= review.punctuation %> <span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
-					kilometers: <%= review.kilometers %> km<br>
-					Horsepower: <%= review.horsepower %> hp<br><br>
-				</div>
-				<div class="col-md-12">
-						Comment:<br>
-						<div id="review-comment">	
-						<%= review.comment %>
-						</div>
-					</div>
-			</div>
-		</li>
+		<% @review = review %> 
+		<%= render "print-reviews" %>
+		
 	<% end %>
 </ul>

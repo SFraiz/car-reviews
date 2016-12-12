@@ -11,9 +11,12 @@
 // about supported directives.
 //
 //= require jquery
+//= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-$().ready(()=> {
-	console.log('hola');
-});
+
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})

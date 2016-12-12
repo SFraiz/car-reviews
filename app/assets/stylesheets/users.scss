@@ -2,7 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-ul li img {
-	max-width: 200px;
-	max-height: 200px;
+.users-list li {
+  margin-top: 15px;
+  img {
+    max-width: 100px;
+    height: auto;
+  }
+  a {
+    color: #e67e22;
+    &:hover {
+      color: #e67e22;
+      text-decoration: none;
+    }
+  }
+}
+.review em {
+	color: #e67e22;
+}
+
+.profile-header .btn-primary {
+  background-color: #e67e22;
+  &:hover {
+    color: #F3FC4E;
+		background-color: #FCB358;
+    text-decoration: none;
+  }
 }

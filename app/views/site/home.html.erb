@@ -1,21 +1,42 @@
-<h2>Choose the brand and model of the review you want to see!</h2>
+<h2 class="text-center">Choose the brand and model of the review you want to see!</h2>
 
-<div class="all_brands">
-	<a href="/reviews">
-		<% @cars.pluck(:brand).uniq.each do |car| %>
-			<div class="brand">	
-				<img src="/assets/Brands/<%= car+'.jpg' %>" id="brand"><br>
-				<p class="text-center"><%= car %></p>
-			</div>		
-		<% end %>
-	</a>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&2times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        gfkgjkjhgljhg
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
-<div class="all_models">
+
+<div class="row all_brands">
+	<% @cars.pluck(:brand).uniq.each do |car| %>
+		<div class="col-sm-2 brand">
+			<img src="/assets/Brands/<%= car+'.jpg' %>"><br>
+		</div>		
+	<% end %>
+</div>
+<!-- <div class="all_models">
 	<% @cars.each do |car| %>
 		<div class="brand">	
 			<img src="/assets/Models/<%= car.model_photo %>" id="model"><br>
 			<p class="text-center"><%= car.model %></p>
 		</div>		
 	<% end %>
-</div>
+</div> -->
 

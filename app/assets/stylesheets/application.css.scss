@@ -1,0 +1,155 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootswatch/sandstone/variables";
+@import "bootstrap";
+@import "bootswatch/sandstone/bootswatch";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url("asfalt.jpg");
+	background-attachment: fixed;
+}
+
+nav.navbar {
+	line-height: 50px;
+	background-color: #e67e22;
+	border-bottom: 0;
+	border-radius: 0;
+	padding: 0 10px;
+	border-top: 0;
+}
+
+.navbar img {
+	float: left;
+	position: relative;
+	margin-top: 20px;
+}
+
+.navbar .user-actions {
+	float: right;
+	color: white;
+}
+
+.navbar .user-actions a {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-nav {
+	float: left;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+#nav-link {
+	text-align: center;
+	font-size: 150%;
+	color: white;
+}
+
+#nav-link:hover {
+	text-align: center;
+	color: #F3FC4E;
+	background-color: #FCB358;
+}
+
+.clearfix {
+	clear: both;
+	margin-left: 0px;
+}
+
+.container {
+	background-color: #f7f9fa; 
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+	border-radius: 3px;
+}
+
+.container h1 {
+	font-family: fantasy;
+	font-size: 600%;
+}
+
+.container ul {
+ 	font-size: 200%;
+ 	list-style: none;
+}
+
+.container ul li a {
+ 	font-size: 50%;
+}
+
+
+div .review {
+ 	font-size: 20px;
+ 	padding: 15px;
+ 	margin-top: 15px;
+ 	margin-right: 15px;
+ 	background-color: white;
+ 	border-radius: 3px;
+}
+
+div .review img {
+	box-sizing: border-box;
+}
+
+div .review p {
+	margin-bottom: 0px;
+}
+
+div .review-comment {
+	display: inline-block;
+ 	border-radius: 3px;
+ 	background-color: #eee;
+ 	padding: 5px 10px;
+}
+
+footer {
+ 	bottom: 0px;
+ 	width: 100%;
+ 	background-color: gray;
+ 	color: #FCB358;
+ 	height: 40px;
+ 	line-height: 40px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer p .text-center { 
+ 	margin: 0 auto;
+}
+
+#error_explanation {
+	color: red;
+}
+
+$header-height: 82px;
+$footer-height: 40px;
+$container-margin: 30px;
+#container {
+	min-height: calc(100vh - #{$header-height + $footer-height + $container-margin});
+}

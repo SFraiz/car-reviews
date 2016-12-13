@@ -25,17 +25,41 @@
       max-width: 100px;
       max-height: 100px;
       box-sizing: border-box;
+      padding-top: 15px; 
     }
     p {
     margin-bottom: 0px;
     }
 }
 
-.all_models {
+.row.all_models {
+    background-color: white;
     border: 1px solid black;
+    width: auto;
+    height: auto;
     box-sizing: border-box;
-    clear: both;
-  }
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.model {
+    margin-right: 0px;
+    box-sizing: border-box;
+    height: 150px;
+    img {
+      display:block;
+      margin: 5px auto;
+      vertical-align: middle;
+      max-width: 100px;
+      max-height: 100px;
+      box-sizing: border-box;
+      padding-top: 15px; 
+    }
+    p {
+    margin-bottom: 0px;
+    }
+}
 
 .brands-list {
   text-align: center;

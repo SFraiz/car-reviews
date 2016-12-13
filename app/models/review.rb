@@ -4,7 +4,7 @@ class Review < ApplicationRecord
 
   validates :model_year, presence: true, 
   					numericality: { only_integer: true }, 
-  					numericality: {less_than_or_equal_to: 1920}
+  					numericality: {grater_than: 1920}
   validates :kilometers, presence: true,
   					numericality: { only_integer: true }
   validates :fuel_type, presence: true

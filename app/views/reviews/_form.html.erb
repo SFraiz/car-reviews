@@ -2,11 +2,11 @@
 
   <% if @review.errors.any? %>
     <div id="error_explanation">
-      <%= pluralize(@review.errors.count, "error") %> prohibited this review from being saved:
+      <strong><%= pluralize(@review.errors.count, "error") %> prohibited this review from being saved:</strong>
 
       <ul>
         <% @review.errors.full_messages.each do |message| %>
-        <li><p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><%= message %></p></li>
+        <li><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <%= message %></li>
         <% end %>
       </ul>
     </div>

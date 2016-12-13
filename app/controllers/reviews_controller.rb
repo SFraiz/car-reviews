@@ -3,8 +3,17 @@ class ReviewsController < ApplicationController
 	def index
     
     if params[:search].present?
-      car = Car.find_by("lower(model) LIKE ?", "%#{params[:search][:keywords]}%".downcase)
-    	@reviews = car.reviews
+      cars = Car.where("lower(model) LIKE ?", "%#{params[:search][:keywords]}%".downcase)
+      
+      if (cars.length == 0)
+      	render 'model_not_found'
+      else
+    		@reviews = cars.reduce([]){|sum,item| sum+item.reviews}
+    		
+    		if (@reviews.length == 0)
+    			render 'no_model_reviews'
+    		end
+    	end
     else
       @reviews = Review.all
     end

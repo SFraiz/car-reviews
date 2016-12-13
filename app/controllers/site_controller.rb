@@ -8,4 +8,8 @@ class SiteController < ApplicationController
 	def buy_pages
 		@cars = Car.all
 	end
+
+	def models
+		@cars = Car.where(brand: params[:brand])
+	end
 end

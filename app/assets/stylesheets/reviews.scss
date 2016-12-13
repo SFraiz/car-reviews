@@ -8,14 +8,7 @@
 }
 
 .container .review-list {
-  .btn-primary {
-    background-color: #e67e22;
-    &:hover {
-      color: #F3FC4E;
-			background-color: #FCB358;
-      text-decoration: none;
-    }
-  }
+  
   img {
     max-width: 200px;
     height: auto;
@@ -25,16 +18,8 @@
 .alert.alert-dismissible.alert-warning {
   background-color: white;
   h2.not-found {
-  color: black;
-  text-align: center;
-  margin: auto;
-  }
-  .back-search.btn.btn-primary.btn-sm {
-    background-color: #e67e22;
-    position: center;
-    &:hover {
-      color: #F3FC4E;
-      background-color: #FCB358;
-    }
+    color: black;
+    text-align: center;
+    margin: auto;
   }
 }

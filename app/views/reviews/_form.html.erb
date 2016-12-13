@@ -1,58 +1,86 @@
 <%= form_for (@review) , html: {class: 'form-horizontal'} do |f| %>
+  <fieldset>
+    <% if @review.errors.any? %>
+      <div id="error_explanation">
+        <strong><%= pluralize(@review.errors.count, "error") %> prohibited this review from being saved:</strong>
 
-  <% if @review.errors.any? %>
-    <div id="error_explanation">
-      <strong><%= pluralize(@review.errors.count, "error") %> prohibited this review from being saved:</strong>
+        <ul>
+          <% @review.errors.full_messages.each do |message| %>
+          <li><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
 
-      <ul>
-        <% @review.errors.full_messages.each do |message| %>
-        <li><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <%= message %></li>
-        <% end %>
-      </ul>
+    <div class="form-group">
+      <%= f.label :brand, class: 'col-lg-2 control-label'%>
+      <div class="col-lg-10">
+        <%= select_tag 'brand', options_for_select( Car.all.pluck(:brand).uniq { |brand| brand }), class: 'form-control' %>
+      </div>
     </div>
-  <% end %>
-
-  <%= f.label :brand %><br>
-  <%= select_tag 'brand', options_for_select( Car.all.pluck(:brand).uniq { |brand| brand }) %>
-  <br>
-
-  <%= f.label :model %><br>
-  <%= f.select 'car_id', options_for_select( Car.all.collect { |u| [u.model, u.id] }, :selected => f.object.car_id), {}, class: 'asdfasdf' %> 
     
-  <div class="field">
-    <%= f.label :model_year %><br>
-    <%= f.text_field :model_year, autofocus: true, class: 'adsfa' %>
-  </div>
+    <div class="form-group">
+      <%= f.label :model, class: 'col-lg-2 control-label' %>
+      <div class="col-lg-10">
+        <%= f.select 'car_id', options_for_select( Car.all.collect { |u| [u.model, u.id] }, :selected => f.object.car_id), {}, class: 'form-control' %>
+      </div>
+    </div>
+        
+    <div class="form-group">
+      <%= f.label :model_year, class: 'col-lg-2 control-label' %>
+      <div class="col-lg-10">
+        <%= f.text_field :model_year, autofocus: true, class: 'form-control' %>
+      </div>
+    </div>
 
-  <div class="field">
-    <%= f.label :kilometers %><br>
-    <%= f.text_field :kilometers %>
-  </div>
+    <div class="form-group">
+      <%= f.label :kilometers, class: 'col-lg-2 control-label' %>
+      <div class="col-lg-10">
+        <%= f.text_field :kilometers, class: 'form-control' %>
+       </div>
+    </div>
+    
+    <div class="form-group">
+      <%= f.label :fuel_type, class: 'col-lg-2 control-label' %>
+      <div class="col-lg-10">
+        <%= f.select 'fuel_type', options_for_select(["Gasoline","Diesel", "Hybrid", "Electric"], :selected => f.object.fuel_type), {},class: 'form-control' %>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <%= f.label :engine_type, class: 'col-lg-2 control-label' %>
+      <div class="col-lg-10">
+        <%= f.text_field :engine_type, class: 'form-control' %>
+      </div>
+    </div>
 
-    <%= f.label :fuel_type %><br>
-    <%= f.select 'fuel_type', options_for_select(["Gasoline","Diesel", "Hybrid", "Electric"], :selected => f.object.fuel_type) %>
+    <div class="form-group">
+      <%= f.label :horsepower, class: 'col-lg-2 control-label' %>
+      <div class="col-lg-10">
+        <%= f.text_field :horsepower, class: 'form-control' %>
+      </div>
+    </div>
 
-  <div class="field">
-    <%= f.label :engine_type %><br>
-    <%= f.text_field :engine_type %>
-  </div>
+    <div class="form-group">
+      <%= f.label :punctuation, class: 'col-lg-2 control-label' %>
+      <div class="col-lg-10">
+        <%= f.text_field :punctuation, class: 'form-control' %> <i>(number from 0 to 5)</i>
+      </div>
+    </div>
 
-  <div class="field">
-    <%= f.label :horsepower %><br>
-    <%= f.text_field :horsepower %>
-  </div>
+    <div class="form-group">
+      <%= f.label :comment, class: 'col-lg-2 control-label' %><br>
+      <div class="col-lg-10">
+        <%= f.text_area :comment, class: 'form-control' %>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <%= f.button class: 'btn btn-primary btn-sm' %>
 
-  <div class="field">
-    <%= f.label :punctuation %> <i>(number from 0 to 5)</i><br>
-    <%= f.text_field :punctuation %>
-  </div>
-
-  <div class="field">
-    <%= f.label :comment %><br>
-    <%= f.text_area :comment %>
-  </div>
-
-  <%= f.button %><br><br>
-
-  <%= link_to 'Cancel', user_path(current_user) %>
+        <%= link_to 'Cancel', user_path(current_user), class: "btn btn-primary btn-sm" %>
+      </div>
+    </div>
+  </fieldset>
 <% end %>

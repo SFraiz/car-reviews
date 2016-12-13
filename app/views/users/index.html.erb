@@ -1,9 +1,14 @@
 <h1>Users</h1>
 
+<%= form_for(:search, url: users_path, html: { role: 'search', method: 'GET'}) do |f| %>  
+    <%= f.text_field :keywords, {placeholder: "nickname"} %>
+    <%= f.button "Search", class: 'btn btn-primary btn-xs' %>
+<% end %>
+
 <ul class="users-list">
-<% @users.sort_by(&:nickname).each do |user| %>
+	<% @users.sort_by(&:nickname).each do |user| %>
 	<li>
 		<%= image_tag user.profile_picture.url(:thumb) %> <%= user.nickname %> - <%= link_to 'Profile', user_path(user.id) %>
 	</li>
-<% end %>
+	<% end %>
 </ul>

@@ -3,8 +3,12 @@ class ReviewsController < ApplicationController
 	def index
     
     if params[:search].present?
-      cars = Car.where("lower(model) LIKE ?", "%#{params[:search][:keywords]}%".downcase)
-      
+    	if params[:search].class != String
+      	cars = Car.where("lower(model) LIKE ?", "%#{params[:search][:keywords]}%".downcase)
+      else
+      	cars = Car.where("lower(model) LIKE ?", "%#{params[:search]}%".downcase)
+      end
+
       if (cars.length == 0)
       	render 'model_not_found'
       else

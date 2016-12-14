@@ -3,7 +3,7 @@
 <div class="row all_models">
 	<% @cars.each do |car| %>
 		<div class="col-sm-2 model">	
-			<a href=""><img src="/assets/Models/<%= car.model_photo %>"><br>
+			<a href="/reviews/<%= car.model %>"><img src="/assets/Models/<%= car.model_photo %>"><br>
 			<p class="text-center"><%= car.model %></p></a>
 		</div>		
 	<% end %>

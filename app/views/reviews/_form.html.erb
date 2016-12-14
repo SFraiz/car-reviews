@@ -1,4 +1,4 @@
-<%= form_for (@review) , html: {class: 'form-horizontal'} do |f| %>
+<%= form_for (@review) , html: { class: 'form-horizontal'} do |f| %>
   <fieldset>
     <% if @review.errors.any? %>
       <div id="error_explanation">
@@ -15,7 +15,14 @@
     <div class="form-group">
       <%= f.label :brand, class: 'col-lg-2 control-label'%>
       <div class="col-lg-10">
-        <%= select_tag 'brand', options_for_select( Car.all.pluck(:brand).uniq { |brand| brand }), class: 'form-control' %>
+        
+        <% if @review.id %>
+          <% car_selected = f.object.car.brand %>
+        <% else %>
+          <% car_selected = "Alfa Romeo" %>
+        <%end%>
+        
+        <%= select_tag 'brand', options_for_select( Car.all.pluck(:brand).uniq { |brand| brand }, :selected => car_selected), class: 'form-control' %>
       </div>
     </div>
     

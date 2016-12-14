@@ -5,10 +5,14 @@
     <%= f.button "Search", class: 'btn btn-primary btn-xs' %>
 <% end %>
 
-<ul class="users-list">
-	<% @users.sort_by(&:nickname).each do |user| %>
-	<li>
-		<%= image_tag user.profile_picture.url(:thumb) %> <%= user.nickname %> - <%= link_to 'Profile', user_path(user.id) %>
-	</li>
-	<% end %>
-</ul>
+<% if @users[0].present? == false %>
+	<%= render "no_users_found" %>
+<% else %>
+	<ul class="users-list">
+		<% @users.sort_by(&:nickname).each do |user| %>
+		<li>
+			<%= image_tag user.profile_picture.url(:thumb) %> <%= user.nickname %> - <%= link_to 'Profile', user_path(user.id) %>
+		</li>
+		<% end %>
+	</ul>
+<% end %>

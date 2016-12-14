@@ -12,4 +12,6 @@ Rails.application.routes.draw do
 	
 	resources :reviews
 
+	get '/reviews/:search', to: 'reviews#index'
+
 end

@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
 	resources :users, only: [:index, :show]
 	
-	resources :reviews
+	resources :reviews, except: [:show]
 
 	get '/reviews/:search', to: 'reviews#index'
 

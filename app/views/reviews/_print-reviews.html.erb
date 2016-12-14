@@ -14,12 +14,7 @@
 			<em>Engine type:</em> <%= @review.engine_type %>
 		</div>
 		<div class="col-md-3">
-			<% @review.punctuation.times do %>
-				<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-			<% end %>
-			<% (5-@review.punctuation).times do %>
-				<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<% end %><br>
+			<%= punctuation_stars(@review) %> <br>
 			<em>kilometers:</em> <%= @review.kilometers %> km<br>
 			<em>Horsepower:</em> <%= @review.horsepower %> hp<br><br>
 		</div>

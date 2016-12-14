@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 	
 	resources :reviews, except: [:show]
 
+	post '/get_brand_models', to: 'cars#get_brand_models'
+
 	get '/reviews/:search', to: 'reviews#index'
 
 end

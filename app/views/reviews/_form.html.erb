@@ -29,7 +29,7 @@
     <div class="form-group">
       <%= f.label :model, class: 'col-lg-2 control-label' %>
       <div class="col-lg-10">
-        <%= f.select 'car_id', options_for_select( Car.all.collect { |u| [u.model, u.id] }, :selected => f.object.car_id), {}, class: 'form-control' %>
+        <%= f.select 'car_id', options_for_select( "", :selected => f.object.car_id), {}, class: 'form-control disabled js-model' %>
       </div>
     </div>
         

@@ -23,3 +23,18 @@
     margin: auto;
   }
 }
+
+.pagination {
+  span{
+  font-size: 16px;
+  }
+  em {
+  font-size: 16px;
+  margin: 5px;
+  }
+  a {
+    font-size: 16px;
+    color: #e67e22;
+    margin: 5px;
+  }
+}

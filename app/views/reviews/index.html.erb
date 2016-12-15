@@ -5,10 +5,13 @@
     <%= f.button "Search", class: 'btn btn-primary btn-xs' %>
 <% end %>
 
+<%= render "paginate" %>
+
 <ul>
-	<% @reviews.sort_by(&:updated_at).reverse!.each do |review| %>
+	<% @reviews.each do |review| %>
 		<% @review = review %> 
 		<%= render "print-reviews" %>
-		
 	<% end %>
 </ul>
+
+<%= render "paginate" %>

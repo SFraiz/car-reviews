@@ -4,7 +4,9 @@
 			<img src="/assets/Models/<%= @review.car.model_photo %>" alt="">
 		</div>
 		<div class="col-md-3">
-			<em>By:</em> <%= @review.user.nickname %><br>
+			<em>By:</em> <%= link_to user_path(@review.user.id), method: 'GET' do %>
+			<%= @review.user.nickname %>
+			<% end %><br>
 			<em>Brand:</em> <%= @review.car.brand %><br>
 			<em>Fuel type:</em> <%= @review.fuel_type %>
 		</div>

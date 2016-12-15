@@ -19,7 +19,7 @@ class ReviewsController < ApplicationController
     		end
     	end
     else
-      @reviews = Review.all
+      @reviews = Review.all.order("updated_at DESC").paginate(:page => params[:page], :per_page => 3)
     end
 	end
 

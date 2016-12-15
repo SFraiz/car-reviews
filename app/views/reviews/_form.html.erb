@@ -22,14 +22,14 @@
           <% car_selected = "" %>
         <%end%>
         
-        <%= select_tag 'brand', options_for_select(Car.all.pluck(:brand).uniq { |brand| brand }, :selected => car_selected), class: 'form-control' %>
+        <%= select_tag 'brand', options_for_select(Car.all.pluck(:brand).uniq { |brand| brand }, :selected => car_selected), class: 'form-control js-select-brand' %>
       </div>
     </div>
     
     <div class="form-group">
       <%= f.label :model, class: 'col-lg-2 control-label' %>
       <div class="col-lg-10">
-        <%= f.select 'car_id', options_for_select( Car.all.collect { |u| [u.model, u.id] }, :selected => f.object.car_id), {}, class: 'form-control disabled js-model' %>
+        <%= f.select 'car_id', options_for_select( Car.all.collect { |u| [u.model, u.id] }, :selected => f.object.car_id), {}, class: 'form-control js-model' %>
       </div>
     </div>
         

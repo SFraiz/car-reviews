@@ -13,7 +13,7 @@ function errorFunction (error) {
 
 
 $(document).on('turbolinks:load', function () {
-	$('select').on('change', function(){
+	$('.js-select-brand').on('change', function(){
     var data = {};
     data.brand = $('#brand').val();
     console.log(data.brand);

@@ -7,8 +7,9 @@
 			<p class="text-center"><%= car.model %></p></a>
 		</div>		
 	<% end %>
+	<div class="col-sm-12 back">
+	<%= link_to '/', :class => 'back-search btn btn-primary btn-sm',  method: 'GET' do %> 
+		Back 
+	<% end %>
+	</div>
 </div>
-
-<%= link_to '/', :class => 'back-search btn btn-primary btn-sm',  method: 'GET' do %> 
-	Back 
-<% end %>

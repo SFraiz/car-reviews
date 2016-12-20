@@ -46,11 +46,10 @@ nav.navbar {
 .navbar .user-actions {
 	float: right;
 	color: white;
-}
-
-.navbar .user-actions a {
-	color: white;
-	text-decoration: none;
+	a {
+		color: white;
+		text-decoration: none;
+	}
 }
 
 .navbar-nav {
@@ -91,6 +90,7 @@ $container-margin: 30px;
 		font-size: 600%;
 	}
 	ul {
+		font-size: 200%;
 	 	list-style: none;
 	 	li a {
 		 	font-size: 50%;
@@ -128,11 +128,10 @@ $container-margin: 30px;
 
 #error_explanation {
 	text-align: center;
-}
-
-#error_explanation ul li {
-	color: red;
-	font-size: 14px;
+	ul li {
+		color: red;
+		font-size: 14px;
+	}
 }
 
 .btn-primary.btn-sm {
@@ -155,6 +154,12 @@ $container-margin: 30px;
 
 .form-control {
 	width: auto;
+}
+
+.row.all_models .col-sm-12.back .btn-primary.btn-sm {
+	color: white;
+	margin-bottom: 5px;
+	margin-left: 474.8125px;
 }
 
 footer {

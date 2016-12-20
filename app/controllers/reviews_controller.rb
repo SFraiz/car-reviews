@@ -1,7 +1,6 @@
 class ReviewsController < ApplicationController
 
 	def index
-    
     if params[:search].present?
     	if params[:search].class != String
       	cars = Car.where("lower(model) LIKE ?", "%#{params[:search][:keywords]}%".downcase)
@@ -19,7 +18,7 @@ class ReviewsController < ApplicationController
     		end
     	end
     else
-      @reviews = Review.all.order("updated_at DESC").paginate(:page => params[:page], :per_page => 3)
+      @reviews = Review.all.order("updated_at DESC").paginate(:page => params[:page], :per_page => 10)
     end
 	end
 
@@ -57,7 +56,6 @@ class ReviewsController < ApplicationController
 
 	def destroy
 		@review = Review.find(params[:id])
-
 		@review.destroy
 		redirect_to user_path(current_user.id)
 	end

@@ -6,11 +6,17 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-clark, tony, rick = User.create([
-	{nickname: 'Clark Kent', email: 'clark@ironhack.com', password: 'ironhack', password_confirmation: 'ironhack'},
-	{nickname: 'Tony Stark', email: 'tony@ironhack.com', password: 'ironhack', password_confirmation: 'ironhack'},
-	{nickname: 'Rick Grimes', email: 'rickk@ironhack.com', password: 'ironhack', password_confirmation: 'ironhack'},
-	])
+name =["Jose","Sergi", "Jonny", "Carlos", "Mariano", "Dani", "Hervé", "Alfonso", "Felipa", "Alex", "Simon", "Miguel", "Sahu", "Santi"]
+
+name.each_with_index do |index| 
+  10.times do
+    nickname = index+"#{rand(1..50)}"+"#{(0...5).map { ('a'..'z').to_a[rand(26)] }.join}"
+    
+    User.create(
+      {nickname: "#{nickname}" , email: "#{nickname}@ironhack.com", password: "ironhack", password_confirmation: "ironhack"}
+      )
+  end
+end
 
 cars = {
     Alfa_Romeo: {
@@ -170,4 +176,29 @@ cars.each do |key, value|
 		web: "#{value[:url]}"
 		)
 	end
+end
+
+fuel = ["Gasoline","Diesel", "Hybrid", "Electric"]
+engine = ["1.2 TSI","1.2 TDI","1.4 TSI","1.4 TDI","1.8 TSI","1.8 TDI","2.0 TDI","2.0 TFSI","20VT","V6","V8","V12","3.0 TDI","3.0 TFSI","3.5 TDI","3.5 TFSI","4.0 TDI","4.0 TFSI"]
+horsepower = ["85","90","100","105","120","125","140","150","170","180","200","250","260","280","300","320","380", "400"]
+comment = ["If excitement and entertainment is what you want from a hot hatch then this car may leave you a little cold. It won’t leave you grinning in the same way a Focus RS or Civic Type R will, but where they falter this car comes into its own: It’s beautifully finished, comfortable and very easy to get along with. As a hot hatch to use and live with everyday this car makes a strong case for itself.",
+"The German company is keen to point out that this is not simply a renaming exercise. This model is all-new and a significant departure from the old same models – and not only can you tell by its looks, it drives better too. It’s also fairly cheap to run and a little more expensive to buy, while offering far more kit at the same time. So what’s not to like?",
+"This car comes with a wide range of familiar dCi diesel and TCe petrols, while a sporty GT model sits at the top of the pile with unique looks, a powerful petrol engine and some clever four-wheel steering technology.",
+"Is rare in offering a relatively wide choice of engines, although still not quite as many as the hatchback. It's a less popular than other versions of the same model in the UK because smaller saloon models are less sought-after. It also lacks the distinctive appearance of the hatch which is a significant part of that car's appeal. A 2006 facelift resulted in very slight changes to the front and rear lights, bumpers plus minor revisions to the engine line-up."]
+
+users = User.all
+users.each do |user|
+
+  rand(1..5).times do
+    user.reviews.create(
+    model_year: "#{rand(1990..2016)}",
+    kilometers: "#{rand(5000..300000)}",
+    fuel_type: "#{fuel[rand(fuel.length)]}",
+    engine_type: "#{engine[rand(engine.length)]}",
+    horsepower: "#{horsepower[rand(horsepower.length)]}",
+    car_id: "#{rand(1..362)}",
+    comment: "#{comment[rand(comment.length)]}",
+    punctuation: "#{rand(1..5)}"
+    )
+  end
 end

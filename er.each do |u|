@@ -1,0 +1,374 @@
+=> [[32m#<User id: 1, email: "jose10mwezn@ironhack.com", nickname: "Jose10mwezn", created_at: "2016-12-15 12:26:04", updated_at: "2016-12-15 12:26:04", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 2, email: "jose8zcfys@ironhack.com", nickname: "Jose8zcfys", created_at: "2016-12-15 12:26:04", updated_at: "2016-12-15 12:26:04", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 3, email: "jose38wemrv@ironhack.com", nickname: "Jose38wemrv", created_at: "2016-12-15 12:26:04", updated_at: "2016-12-15 12:26:04", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 4, email: "jose46ssfla@ironhack.com", nickname: "Jose46ssfla", created_at: "2016-12-15 12:26:04", updated_at: "2016-12-15 12:26:04", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 5, email: "jose50skpcy@ironhack.com", nickname: "Jose50skpcy", created_at: "2016-12-15 12:26:05", updated_at: "2016-12-15 12:26:05", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 6, email: "jose11qmbje@ironhack.com", nickname: "Jose11qmbje", created_at: "2016-12-15 12:26:05", updated_at: "2016-12-15 12:26:05", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 7, email: "jose15zkznf@ironhack.com", nickname: "Jose15zkznf", created_at: "2016-12-15 12:26:05", updated_at: "2016-12-15 12:26:05", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 8, email: "jose47djwgj@ironhack.com", nickname: "Jose47djwgj", created_at: "2016-12-15 12:26:05", updated_at: "2016-12-15 12:26:05", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 9, email: "jose21jymvj@ironhack.com", nickname: "Jose21jymvj", created_at: "2016-12-15 12:26:05", updated_at: "2016-12-15 12:26:05", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 10, email: "jose40bzgxw@ironhack.com", nickname: "Jose40bzgxw", created_at: "2016-12-15 12:26:05", updated_at: "2016-12-15 12:26:05", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 11, email: "sergi31twxip@ironhack.com", nickname: "Sergi31twxip", created_at: "2016-12-15 12:26:05", updated_at: "2016-12-15 12:26:05", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 12, email: "sergi19ozwvm@ironhack.com", nickname: "Sergi19ozwvm", created_at: "2016-12-15 12:26:05", updated_at: "2016-12-15 12:26:05", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 13, email: "sergi49zoycb@ironhack.com", nickname: "Sergi49zoycb", created_at: "2016-12-15 12:26:06", updated_at: "2016-12-15 12:26:06", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 14, email: "sergi12dntmb@ironhack.com", nickname: "Sergi12dntmb", created_at: "2016-12-15 12:26:06", updated_at: "2016-12-15 12:26:06", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 15, email: "sergi25xqeam@ironhack.com", nickname: "Sergi25xqeam", created_at: "2016-12-15 12:26:06", updated_at: "2016-12-15 12:26:06", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 16, email: "sergi36wnvfr@ironhack.com", nickname: "Sergi36wnvfr", created_at: "2016-12-15 12:26:06", updated_at: "2016-12-15 12:26:06", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 17, email: "sergi2nwzje@ironhack.com", nickname: "Sergi2nwzje", created_at: "2016-12-15 12:26:06", updated_at: "2016-12-15 12:26:06", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 18, email: "sergi25qaxcu@ironhack.com", nickname: "Sergi25qaxcu", created_at: "2016-12-15 12:26:06", updated_at: "2016-12-15 12:26:06", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 19, email: "sergi18zklzj@ironhack.com", nickname: "Sergi18zklzj", created_at: "2016-12-15 12:26:06", updated_at: "2016-12-15 12:26:06", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 20, email: "sergi3vaido@ironhack.com", nickname: "Sergi3vaido", created_at: "2016-12-15 12:26:06", updated_at: "2016-12-15 12:26:06", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 21, email: "jonny46mhyds@ironhack.com", nickname: "Jonny46mhyds", created_at: "2016-12-15 12:26:07", updated_at: "2016-12-15 12:26:07", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 22, email: "jonny7nxgdc@ironhack.com", nickname: "Jonny7nxgdc", created_at: "2016-12-15 12:26:07", updated_at: "2016-12-15 12:26:07", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 23, email: "jonny1hzmaa@ironhack.com", nickname: "Jonny1hzmaa", created_at: "2016-12-15 12:26:07", updated_at: "2016-12-15 12:26:07", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 24, email: "jonny13xmhso@ironhack.com", nickname: "Jonny13xmhso", created_at: "2016-12-15 12:26:07", updated_at: "2016-12-15 12:26:07", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 25, email: "jonny38lqzoh@ironhack.com", nickname: "Jonny38lqzoh", created_at: "2016-12-15 12:26:07", updated_at: "2016-12-15 12:26:07", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 26, email: "jonny36hqzfx@ironhack.com", nickname: "Jonny36hqzfx", created_at: "2016-12-15 12:26:07", updated_at: "2016-12-15 12:26:07", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 27, email: "jonny45vzyis@ironhack.com", nickname: "Jonny45vzyis", created_at: "2016-12-15 12:26:07", updated_at: "2016-12-15 12:26:07", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 28, email: "jonny37mblwk@ironhack.com", nickname: "Jonny37mblwk", created_at: "2016-12-15 12:26:08", updated_at: "2016-12-15 12:26:08", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 29, email: "jonny17dkulg@ironhack.com", nickname: "Jonny17dkulg", created_at: "2016-12-15 12:26:08", updated_at: "2016-12-15 12:26:08", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 30, email: "jonny41fedrm@ironhack.com", nickname: "Jonny41fedrm", created_at: "2016-12-15 12:26:08", updated_at: "2016-12-15 12:26:08", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 31, email: "carlos21idvbc@ironhack.com", nickname: "Carlos21idvbc", created_at: "2016-12-15 12:26:08", updated_at: "2016-12-15 12:26:08", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 32, email: "carlos1cmfnu@ironhack.com", nickname: "Carlos1cmfnu", created_at: "2016-12-15 12:26:08", updated_at: "2016-12-15 12:26:08", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 33, email: "carlos50xkklk@ironhack.com", nickname: "Carlos50xkklk", created_at: "2016-12-15 12:26:08", updated_at: "2016-12-15 12:26:08", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 34, email: "carlos33bywbk@ironhack.com", nickname: "Carlos33bywbk", created_at: "2016-12-15 12:26:08", updated_at: "2016-12-15 12:26:08", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 35, email: "carlos10kknmo@ironhack.com", nickname: "Carlos10kknmo", created_at: "2016-12-15 12:26:08", updated_at: "2016-12-15 12:26:08", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 36, email: "carlos26cqaot@ironhack.com", nickname: "Carlos26cqaot", created_at: "2016-12-15 12:26:09", updated_at: "2016-12-15 12:26:09", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 37, email: "carlos46tylsp@ironhack.com", nickname: "Carlos46tylsp", created_at: "2016-12-15 12:26:09", updated_at: "2016-12-15 12:26:09", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 38, email: "carlos22brpsu@ironhack.com", nickname: "Carlos22brpsu", created_at: "2016-12-15 12:26:09", updated_at: "2016-12-15 12:26:09", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 39, email: "carlos13ngurt@ironhack.com", nickname: "Carlos13ngurt", created_at: "2016-12-15 12:26:09", updated_at: "2016-12-15 12:26:09", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 40, email: "carlos35pwtyy@ironhack.com", nickname: "Carlos35pwtyy", created_at: "2016-12-15 12:26:09", updated_at: "2016-12-15 12:26:09", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 41, email: "mariano49qinmd@ironhack.com", nickname: "Mariano49qinmd", created_at: "2016-12-15 12:26:09", updated_at: "2016-12-15 12:26:09", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 42, email: "mariano25onnbd@ironhack.com", nickname: "Mariano25onnbd", created_at: "2016-12-15 12:26:09", updated_at: "2016-12-15 12:26:09", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 43, email: "mariano47iezuc@ironhack.com", nickname: "Mariano47iezuc", created_at: "2016-12-15 12:26:09", updated_at: "2016-12-15 12:26:09", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 44, email: "mariano17ggkzg@ironhack.com", nickname: "Mariano17ggkzg", created_at: "2016-12-15 12:26:10", updated_at: "2016-12-15 12:26:10", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 45, email: "mariano1aoqhm@ironhack.com", nickname: "Mariano1aoqhm", created_at: "2016-12-15 12:26:10", updated_at: "2016-12-15 12:26:10", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 46, email: "mariano24xotfo@ironhack.com", nickname: "Mariano24xotfo", created_at: "2016-12-15 12:26:10", updated_at: "2016-12-15 12:26:10", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 47, email: "mariano35pdcwk@ironhack.com", nickname: "Mariano35pdcwk", created_at: "2016-12-15 12:26:10", updated_at: "2016-12-15 12:26:10", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 48, email: "mariano13amtuw@ironhack.com", nickname: "Mariano13amtuw", created_at: "2016-12-15 12:26:10", updated_at: "2016-12-15 12:26:10", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 49, email: "mariano28smvxf@ironhack.com", nickname: "Mariano28smvxf", created_at: "2016-12-15 12:26:10", updated_at: "2016-12-15 12:26:10", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 50, email: "mariano41zdqmn@ironhack.com", nickname: "Mariano41zdqmn", created_at: "2016-12-15 12:26:10", updated_at: "2016-12-15 12:26:10", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 51, email: "dani18dpphe@ironhack.com", nickname: "Dani18dpphe", created_at: "2016-12-15 12:26:10", updated_at: "2016-12-15 12:26:10", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 52, email: "dani6owavl@ironhack.com", nickname: "Dani6owavl", created_at: "2016-12-15 12:26:11", updated_at: "2016-12-15 12:26:11", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 53, email: "dani50prhvr@ironhack.com", nickname: "Dani50prhvr", created_at: "2016-12-15 12:26:11", updated_at: "2016-12-15 12:26:11", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 54, email: "dani11jsyxk@ironhack.com", nickname: "Dani11jsyxk", created_at: "2016-12-15 12:26:11", updated_at: "2016-12-15 12:26:11", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 55, email: "dani45cugbl@ironhack.com", nickname: "Dani45cugbl", created_at: "2016-12-15 12:26:11", updated_at: "2016-12-15 12:26:11", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 56, email: "dani23yqlve@ironhack.com", nickname: "Dani23yqlve", created_at: "2016-12-15 12:26:11", updated_at: "2016-12-15 12:26:11", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 57, email: "dani31wdgxs@ironhack.com", nickname: "Dani31wdgxs", created_at: "2016-12-15 12:26:11", updated_at: "2016-12-15 12:26:11", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 58, email: "dani23qtcnz@ironhack.com", nickname: "Dani23qtcnz", created_at: "2016-12-15 12:26:11", updated_at: "2016-12-15 12:26:11", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 59, email: "dani32plsvp@ironhack.com", nickname: "Dani32plsvp", created_at: "2016-12-15 12:26:11", updated_at: "2016-12-15 12:26:11", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 60, email: "dani8cenae@ironhack.com", nickname: "Dani8cenae", created_at: "2016-12-15 12:26:12", updated_at: "2016-12-15 12:26:12", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 61, email: "hervé8mcyrg@ironhack.com", nickname: "Hervé8mcyrg", created_at: "2016-12-15 12:26:12", updated_at: "2016-12-15 12:26:12", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 62, email: "hervé45uzgts@ironhack.com", nickname: "Hervé45uzgts", created_at: "2016-12-15 12:26:12", updated_at: "2016-12-15 12:26:12", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 63, email: "hervé38shqrq@ironhack.com", nickname: "Hervé38shqrq", created_at: "2016-12-15 12:26:12", updated_at: "2016-12-15 12:26:12", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 64, email: "hervé15abfrl@ironhack.com", nickname: "Hervé15abfrl", created_at: "2016-12-15 12:26:12", updated_at: "2016-12-15 12:26:12", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 65, email: "hervé26llcfq@ironhack.com", nickname: "Hervé26llcfq", created_at: "2016-12-15 12:26:12", updated_at: "2016-12-15 12:26:12", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 66, email: "hervé19dolwx@ironhack.com", nickname: "Hervé19dolwx", created_at: "2016-12-15 12:26:12", updated_at: "2016-12-15 12:26:12", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 67, email: "hervé33ewpnm@ironhack.com", nickname: "Hervé33ewpnm", created_at: "2016-12-15 12:26:12", updated_at: "2016-12-15 12:26:12", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 68, email: "hervé36chzbe@ironhack.com", nickname: "Hervé36chzbe", created_at: "2016-12-15 12:26:13", updated_at: "2016-12-15 12:26:13", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 69, email: "hervé12zlxyu@ironhack.com", nickname: "Hervé12zlxyu", created_at: "2016-12-15 12:26:13", updated_at: "2016-12-15 12:26:13", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 70, email: "hervé34jkaoo@ironhack.com", nickname: "Hervé34jkaoo", created_at: "2016-12-15 12:26:13", updated_at: "2016-12-15 12:26:13", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 71, email: "alfonso18mrxwb@ironhack.com", nickname: "Alfonso18mrxwb", created_at: "2016-12-15 12:26:13", updated_at: "2016-12-15 12:26:13", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 72, email: "alfonso13nhstr@ironhack.com", nickname: "Alfonso13nhstr", created_at: "2016-12-15 12:26:13", updated_at: "2016-12-15 12:26:13", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 73, email: "alfonso43fyntm@ironhack.com", nickname: "Alfonso43fyntm", created_at: "2016-12-15 12:26:13", updated_at: "2016-12-15 12:26:13", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 74, email: "alfonso23bkmfb@ironhack.com", nickname: "Alfonso23bkmfb", created_at: "2016-12-15 12:26:13", updated_at: "2016-12-15 12:26:13", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 75, email: "alfonso45ehtgp@ironhack.com", nickname: "Alfonso45ehtgp", created_at: "2016-12-15 12:26:13", updated_at: "2016-12-15 12:26:13", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 76, email: "alfonso19dkutj@ironhack.com", nickname: "Alfonso19dkutj", created_at: "2016-12-15 12:26:14", updated_at: "2016-12-15 12:26:14", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 77, email: "alfonso29sfaoj@ironhack.com", nickname: "Alfonso29sfaoj", created_at: "2016-12-15 12:26:14", updated_at: "2016-12-15 12:26:14", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 78, email: "alfonso36iikam@ironhack.com", nickname: "Alfonso36iikam", created_at: "2016-12-15 12:26:14", updated_at: "2016-12-15 12:26:14", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 79, email: "alfonso31noxoh@ironhack.com", nickname: "Alfonso31noxoh", created_at: "2016-12-15 12:26:14", updated_at: "2016-12-15 12:26:14", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 80, email: "alfonso26reozq@ironhack.com", nickname: "Alfonso26reozq", created_at: "2016-12-15 12:26:14", updated_at: "2016-12-15 12:26:14", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 81, email: "felipa34tzjba@ironhack.com", nickname: "Felipa34tzjba", created_at: "2016-12-15 12:26:14", updated_at: "2016-12-15 12:26:14", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 82, email: "felipa12eqhir@ironhack.com", nickname: "Felipa12eqhir", created_at: "2016-12-15 12:26:14", updated_at: "2016-12-15 12:26:14", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 83, email: "felipa40qmnxm@ironhack.com", nickname: "Felipa40qmnxm", created_at: "2016-12-15 12:26:14", updated_at: "2016-12-15 12:26:14", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 84, email: "felipa21pankb@ironhack.com", nickname: "Felipa21pankb", created_at: "2016-12-15 12:26:15", updated_at: "2016-12-15 12:26:15", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 85, email: "felipa2auqhv@ironhack.com", nickname: "Felipa2auqhv", created_at: "2016-12-15 12:26:15", updated_at: "2016-12-15 12:26:15", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 86, email: "felipa24nwpwq@ironhack.com", nickname: "Felipa24nwpwq", created_at: "2016-12-15 12:26:15", updated_at: "2016-12-15 12:26:15", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 87, email: "felipa16sbnwu@ironhack.com", nickname: "Felipa16sbnwu", created_at: "2016-12-15 12:26:15", updated_at: "2016-12-15 12:26:15", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 88, email: "felipa43wvksf@ironhack.com", nickname: "Felipa43wvksf", created_at: "2016-12-15 12:26:15", updated_at: "2016-12-15 12:26:15", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 89, email: "felipa34pewna@ironhack.com", nickname: "Felipa34pewna", created_at: "2016-12-15 12:26:15", updated_at: "2016-12-15 12:26:15", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 90, email: "felipa31mbzuy@ironhack.com", nickname: "Felipa31mbzuy", created_at: "2016-12-15 12:26:15", updated_at: "2016-12-15 12:26:15", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 91, email: "alex22sgszs@ironhack.com", nickname: "Alex22sgszs", created_at: "2016-12-15 12:26:15", updated_at: "2016-12-15 12:26:15", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 92, email: "alex19zcwdd@ironhack.com", nickname: "Alex19zcwdd", created_at: "2016-12-15 12:26:16", updated_at: "2016-12-15 12:26:16", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 93, email: "alex42vchxk@ironhack.com", nickname: "Alex42vchxk", created_at: "2016-12-15 12:26:16", updated_at: "2016-12-15 12:26:16", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 94, email: "alex34qrhpw@ironhack.com", nickname: "Alex34qrhpw", created_at: "2016-12-15 12:26:16", updated_at: "2016-12-15 12:26:16", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 95, email: "alex46vspan@ironhack.com", nickname: "Alex46vspan", created_at: "2016-12-15 12:26:16", updated_at: "2016-12-15 12:26:16", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 96, email: "alex9kylpj@ironhack.com", nickname: "Alex9kylpj", created_at: "2016-12-15 12:26:16", updated_at: "2016-12-15 12:26:16", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 97, email: "alex24ihrgf@ironhack.com", nickname: "Alex24ihrgf", created_at: "2016-12-15 12:26:16", updated_at: "2016-12-15 12:26:16", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 98, email: "alex18efecd@ironhack.com", nickname: "Alex18efecd", created_at: "2016-12-15 12:26:16", updated_at: "2016-12-15 12:26:16", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 99, email: "alex39ufquv@ironhack.com", nickname: "Alex39ufquv", created_at: "2016-12-15 12:26:16", updated_at: "2016-12-15 12:26:16", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 100, email: "alex39ehxiz@ironhack.com", nickname: "Alex39ehxiz", created_at: "2016-12-15 12:26:17", updated_at: "2016-12-15 12:26:17", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 101, email: "simon14qknbr@ironhack.com", nickname: "Simon14qknbr", created_at: "2016-12-15 12:26:17", updated_at: "2016-12-15 12:26:17", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 102, email: "simon20jjpbx@ironhack.com", nickname: "Simon20jjpbx", created_at: "2016-12-15 12:26:17", updated_at: "2016-12-15 12:26:17", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 103, email: "simon30ahxjz@ironhack.com", nickname: "Simon30ahxjz", created_at: "2016-12-15 12:26:17", updated_at: "2016-12-15 12:26:17", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 104, email: "simon30kkxxa@ironhack.com", nickname: "Simon30kkxxa", created_at: "2016-12-15 12:26:17", updated_at: "2016-12-15 12:26:17", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 105, email: "simon19giuhl@ironhack.com", nickname: "Simon19giuhl", created_at: "2016-12-15 12:26:17", updated_at: "2016-12-15 12:26:17", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 106, email: "simon17guhyq@ironhack.com", nickname: "Simon17guhyq", created_at: "2016-12-15 12:26:17", updated_at: "2016-12-15 12:26:17", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 107, email: "simon35rgnni@ironhack.com", nickname: "Simon35rgnni", created_at: "2016-12-15 12:26:17", updated_at: "2016-12-15 12:26:17", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 108, email: "simon37apnkr@ironhack.com", nickname: "Simon37apnkr", created_at: "2016-12-15 12:26:18", updated_at: "2016-12-15 12:26:18", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 109, email: "simon41gbwnh@ironhack.com", nickname: "Simon41gbwnh", created_at: "2016-12-15 12:26:18", updated_at: "2016-12-15 12:26:18", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 110, email: "simon11ibasb@ironhack.com", nickname: "Simon11ibasb", created_at: "2016-12-15 12:26:18", updated_at: "2016-12-15 12:26:18", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 111, email: "miguel20srazg@ironhack.com", nickname: "Miguel20srazg", created_at: "2016-12-15 12:26:18", updated_at: "2016-12-15 12:26:18", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 112, email: "miguel8ochzt@ironhack.com", nickname: "Miguel8ochzt", created_at: "2016-12-15 12:26:18", updated_at: "2016-12-15 12:26:18", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 113, email: "miguel36fvkpa@ironhack.com", nickname: "Miguel36fvkpa", created_at: "2016-12-15 12:26:18", updated_at: "2016-12-15 12:26:18", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 114, email: "miguel16bkssh@ironhack.com", nickname: "Miguel16bkssh", created_at: "2016-12-15 12:26:18", updated_at: "2016-12-15 12:26:18", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 115, email: "miguel37xfbdc@ironhack.com", nickname: "Miguel37xfbdc", created_at: "2016-12-15 12:26:18", updated_at: "2016-12-15 12:26:18", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 116, email: "miguel47ogwum@ironhack.com", nickname: "Miguel47ogwum", created_at: "2016-12-15 12:26:19", updated_at: "2016-12-15 12:26:19", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 117, email: "miguel5opmqy@ironhack.com", nickname: "Miguel5opmqy", created_at: "2016-12-15 12:26:19", updated_at: "2016-12-15 12:26:19", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 118, email: "miguel36gtifr@ironhack.com", nickname: "Miguel36gtifr", created_at: "2016-12-15 12:26:19", updated_at: "2016-12-15 12:26:19", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 119, email: "miguel33hwvqe@ironhack.com", nickname: "Miguel33hwvqe", created_at: "2016-12-15 12:26:19", updated_at: "2016-12-15 12:26:19", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 120, email: "miguel21hlgpw@ironhack.com", nickname: "Miguel21hlgpw", created_at: "2016-12-15 12:26:19", updated_at: "2016-12-15 12:26:19", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 121, email: "sahu42pohxa@ironhack.com", nickname: "Sahu42pohxa", created_at: "2016-12-15 12:26:19", updated_at: "2016-12-15 12:26:19", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 122, email: "sahu50rrhpq@ironhack.com", nickname: "Sahu50rrhpq", created_at: "2016-12-15 12:26:19", updated_at: "2016-12-15 12:26:19", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 123, email: "sahu34pxxhh@ironhack.com", nickname: "Sahu34pxxhh", created_at: "2016-12-15 12:26:19", updated_at: "2016-12-15 12:26:19", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 124, email: "sahu15zsiyt@ironhack.com", nickname: "Sahu15zsiyt", created_at: "2016-12-15 12:26:20", updated_at: "2016-12-15 12:26:20", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 125, email: "sahu22kmvdf@ironhack.com", nickname: "Sahu22kmvdf", created_at: "2016-12-15 12:26:20", updated_at: "2016-12-15 12:26:20", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 126, email: "sahu1cduqg@ironhack.com", nickname: "Sahu1cduqg", created_at: "2016-12-15 12:26:20", updated_at: "2016-12-15 12:26:20", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 127, email: "sahu36evtrz@ironhack.com", nickname: "Sahu36evtrz", created_at: "2016-12-15 12:26:20", updated_at: "2016-12-15 12:26:20", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 128, email: "sahu36lawgr@ironhack.com", nickname: "Sahu36lawgr", created_at: "2016-12-15 12:26:20", updated_at: "2016-12-15 12:26:20", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 129, email: "sahu13ndqwn@ironhack.com", nickname: "Sahu13ndqwn", created_at: "2016-12-15 12:26:20", updated_at: "2016-12-15 12:26:20", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 130, email: "sahu42eircy@ironhack.com", nickname: "Sahu42eircy", created_at: "2016-12-15 12:26:20", updated_at: "2016-12-15 12:26:20", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 131, email: "santi16xqtsb@ironhack.com", nickname: "Santi16xqtsb", created_at: "2016-12-15 12:26:20", updated_at: "2016-12-15 12:26:20", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 132, email: "santi4crrvb@ironhack.com", nickname: "Santi4crrvb", created_at: "2016-12-15 12:26:21", updated_at: "2016-12-15 12:26:21", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 133, email: "santi46xwjbh@ironhack.com", nickname: "Santi46xwjbh", created_at: "2016-12-15 12:26:21", updated_at: "2016-12-15 12:26:21", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 134, email: "santi25defej@ironhack.com", nickname: "Santi25defej", created_at: "2016-12-15 12:26:21", updated_at: "2016-12-15 12:26:21", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 135, email: "santi11jdjmy@ironhack.com", nickname: "Santi11jdjmy", created_at: "2016-12-15 12:26:21", updated_at: "2016-12-15 12:26:21", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 136, email: "santi1lhxsm@ironhack.com", nickname: "Santi1lhxsm", created_at: "2016-12-15 12:26:21", updated_at: "2016-12-15 12:26:21", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 137, email: "santi14rqrep@ironhack.com", nickname: "Santi14rqrep", created_at: "2016-12-15 12:26:21", updated_at: "2016-12-15 12:26:21", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 138, email: "santi5iuosk@ironhack.com", nickname: "Santi5iuosk", created_at: "2016-12-15 12:26:21", updated_at: "2016-12-15 12:26:21", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 139, email: "santi8lnuet@ironhack.com", nickname: "Santi8lnuet", created_at: "2016-12-15 12:26:21", updated_at: "2016-12-15 12:26:21", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 140, email: "santi39gxvpu@ironhack.com", nickname: "Santi39gxvpu", created_at: "2016-12-15 12:26:22", updated_at: "2016-12-15 12:26:22", profile_picture_file_name: nil, profile_picture_content_type: nil, profile_picture_file_size: nil, profile_picture_updated_at: nil>[0m,
+ [32m#<User id: 141, email: "fraiz@gmail.com", nickname: "Fraiele", created_at: "2016-12-15 12:27:10", updated_at: "2016-12-15 12:27:10", profile_picture_file_name: "1551763_10203183718858360_125536452_n.jpg", profile_picture_content_type: "image/jpeg", profile_picture_file_size: 129522, profile_picture_updated_at: "2016-12-15 12:27:10">[0m]
+
+                   SSUUMMMMAARRYY OOFF LLEESSSS CCOOMMMMAANNDDSS
+
+      Commands marked with * may be preceded by a number, _N.
+      Notes in parentheses indicate the behavior if _N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MMOOVVIINNGG
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or _N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or _N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or _N lines).
+  b  ^B  ESC-v      *  Backward one window (or _N lines).
+  z                 *  Forward  one window (and set window to _N).
+  w                 *  Backward one window (and set window to _N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to _N).
+  u  ^U             *  Backward one half-window (and set half-window to _N).
+  ESC-)  RightArrow *  Left  one half screen width (or _N positions).
+  ESC-(  LeftArrow  *  Right one half screen width (or _N positions).
+  F                    Forward forever; like "tail -f".
+  ESC-F                Like F but stop when search pattern is found.
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
+
+                          SSEEAARRCCHHIINNGG
+
+  /_p_a_t_t_e_r_n          *  Search forward for (_N-th) matching line.
+  ?_p_a_t_t_e_r_n          *  Search backward for (_N-th) matching line.
+  n                 *  Repeat previous search (for _N-th occurrence).
+  N                 *  Repeat previous search in reverse direction.
+  ESC-n             *  Repeat previous search, spanning files.
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.
+  ESC-u                Undo (toggle) search highlighting.
+  &_p_a_t_t_e_r_n          *  Display only matching lines
+        ---------------------------------------------------
+        A search pattern may be preceded by one or more of:
+        ^N or !  Search for NON-matching lines.
+        ^E or *  Search multiple files (pass thru END OF FILE).
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).
+        ^K       Highlight matches, but don't move (KEEP position).
+        ^R       Don't use REGULAR EXPRESSIONS.
+ ---------------------------------------------------------------------------
+
+                           JJUUMMPPIINNGG
+
+  g  <  ESC-<       *  Go to first line in file (or line _N).
+  G  >  ESC->       *  Go to last line in file (or line _N).
+  p  %              *  Go to beginning of file (or _N percent into file).
+  t                 *  Go to the (_N-th) next tag.
+  T                 *  Go to the (_N-th) previous tag.
+  {  (  [           *  Find close bracket } ) ].
+  }  )  ]           *  Find open bracket { ( [.
+  ESC-^F _<_c_1_> _<_c_2_>  *  Find close bracket _<_c_2_>.
+  ESC-^B _<_c_1_> _<_c_2_>  *  Find open bracket _<_c_1_> 
+        ---------------------------------------------------
+        Each "find close bracket" command goes forward to the close bracket 
+          matching the (_N-th) open bracket in the top line.
+        Each "find open bracket" command goes backward to the open bracket 
+          matching the (_N-th) close bracket in the bottom line.
+
+  m_<_l_e_t_t_e_r_>            Mark the current position with <letter>.
+  '_<_l_e_t_t_e_r_>            Go to a previously marked position.
+  ''                   Go to the previous position.
+  ^X^X                 Same as '.
+        ---------------------------------------------------
+        A mark is any upper-case or lower-case letter.
+        Certain marks are predefined:
+             ^  means  beginning of the file
+             $  means  end of the file
+ ---------------------------------------------------------------------------
+
+                        CCHHAANNGGIINNGG FFIILLEESS
+
+  :e [_f_i_l_e]            Examine a new file.
+  ^X^V                 Same as :e.
+  :n                *  Examine the (_N-th) next file from the command line.
+  :p                *  Examine the (_N-th) previous file from the command line.
+  :x                *  Examine the first (or _N-th) file from the command line.
+  :d                   Delete the current file from the command line list.
+  =  ^G  :f            Print current file name.
+ ---------------------------------------------------------------------------
+
+                    MMIISSCCEELLLLAANNEEOOUUSS CCOOMMMMAANNDDSS
+
+  -_<_f_l_a_g_>              Toggle a command line option [see OPTIONS below].
+  --_<_n_a_m_e_>             Toggle a command line option, by name.
+  __<_f_l_a_g_>              Display the setting of a command line option.
+  ___<_n_a_m_e_>             Display the setting of an option, by name.
+  +_c_m_d                 Execute the less cmd each time a new file is examined.
+
+  !_c_o_m_m_a_n_d             Execute the shell command with $SHELL.
+  |XX_c_o_m_m_a_n_d            Pipe file between current pos & mark XX to shell command.
+  v                    Edit the current file with $VISUAL or $EDITOR.
+  V                    Print version number of "less".
+ ---------------------------------------------------------------------------
+
+                           OOPPTTIIOONNSS
+
+        Most options may be changed either on the command line,
+        or from within less by using the - or -- command.
+        Options may be given in one of two forms: either a single
+        character preceded by a -, or a name preceded by --.
+
+  -?  ........  --help
+                  Display help (from command line).
+  -a  ........  --search-skip-screen
+                  Search skips current screen.
+  -A  ........  --SEARCH-SKIP-SCREEN
+                  Search starts just after target line.
+  -b [_N]  ....  --buffers=[_N]
+                  Number of buffers.
+  -B  ........  --auto-buffers
+                  Don't automatically allocate buffers for pipes.
+  -c  ........  --clear-screen
+                  Repaint by clearing rather than scrolling.
+  -d  ........  --dumb
+                  Dumb terminal.
+  -D [_x_n_._n]  .  --color=_x_n_._n
+                  Set screen colors. (MS-DOS only)
+  -e  -E  ....  --quit-at-eof  --QUIT-AT-EOF
+                  Quit at end of file.
+  -f  ........  --force
+                  Force open non-regular files.
+  -F  ........  --quit-if-one-screen
+                  Quit if entire file fits on first screen.
+  -g  ........  --hilite-search
+                  Highlight only last match for searches.
+  -G  ........  --HILITE-SEARCH
+                  Don't highlight any matches for searches.
+  -h [_N]  ....  --max-back-scroll=[_N]
+                  Backward scroll limit.
+  -i  ........  --ignore-case
+                  Ignore case in searches that do not contain uppercase.
+  -I  ........  --IGNORE-CASE
+                  Ignore case in all searches.
+  -j [_N]  ....  --jump-target=[_N]
+                  Screen position of target lines.
+  -J  ........  --status-column
+                  Display a status column at left edge of screen.
+  -k [_f_i_l_e]  .  --lesskey-file=[_f_i_l_e]
+                  Use a lesskey file.
+  -K            --quit-on-intr
+                  Exit less in response to ctrl-C.
+  -L  ........  --no-lessopen
+                  Ignore the LESSOPEN environment variable.
+  -m  -M  ....  --long-prompt  --LONG-PROMPT
+                  Set prompt style.
+  -n  -N  ....  --line-numbers  --LINE-NUMBERS
+                  Don't use line numbers.
+  -o [_f_i_l_e]  .  --log-file=[_f_i_l_e]
+                  Copy to log file (standard input only).
+  -O [_f_i_l_e]  .  --LOG-FILE=[_f_i_l_e]
+                  Copy to log file (unconditionally overwrite).
+  -p [_p_a_t_t_e_r_n]  --pattern=[_p_a_t_t_e_r_n]
+                  Start at pattern (from command line).
+  -P [_p_r_o_m_p_t]   --prompt=[_p_r_o_m_p_t]
+                  Define new prompt.
+  -q  -Q  ....  --quiet  --QUIET  --silent --SILENT
+                  Quiet the terminal bell.
+  -r  -R  ....  --raw-control-chars  --RAW-CONTROL-CHARS
+                  Output "raw" control characters.
+  -s  ........  --squeeze-blank-lines
+                  Squeeze multiple blank lines.
+  -S  ........  --chop-long-lines
+                  Chop (truncate) long lines rather than wrapping.
+  -t [_t_a_g]  ..  --tag=[_t_a_g]
+                  Find a tag.
+  -T [_t_a_g_s_f_i_l_e] --tag-file=[_t_a_g_s_f_i_l_e]
+                  Use an alternate tags file.
+  -u  -U  ....  --underline-special  --UNDERLINE-SPECIAL
+                  Change handling of backspaces.
+  -V  ........  --version
+                  Display the version number of "less".
+  -w  ........  --hilite-unread
+                  Highlight first new line after forward-screen.
+  -W  ........  --HILITE-UNREAD
+                  Highlight first new line after any forward movement.
+  -x [_N[,...]]  --tabs=[_N[,...]]
+                  Set tab stops.
+  -X  ........  --no-init
+                  Don't use termcap init/deinit strings.
+  -y [_N]  ....  --max-forw-scroll=[_N]
+                  Forward scroll limit.
+  -z [_N]  ....  --window=[_N]
+                  Set size of window.
+  -" [_c[_c]]  .  --quotes=[_c[_c]]
+                  Set shell quote characters.
+  -~  ........  --tilde
+                  Don't display tildes after end of file.
+  -# [_N]  ....  --shift=[_N]
+                  Horizontal scroll amount (0 = one half screen width)
+      ........  --no-keypad
+                  Don't send termcap keypad init/deinit strings.
+      ........  --follow-name
+                  The F command changes files if the input file is renamed.
+      ........  --use-backslash
+                  Subsequent options use backslash as escape char.
+
+
+ ---------------------------------------------------------------------------
+
+                          LLIINNEE EEDDIITTIINNGG
+
+        These keys can be used to edit text being entered 
+        on the "command line" at the bottom of the screen.
+
+ RightArrow ..................... ESC-l ... Move cursor right one character.
+ LeftArrow ...................... ESC-h ... Move cursor left one character.
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.
+ HOME ........................... ESC-0 ... Move cursor to start of line.
+ END ............................ ESC-$ ... Move cursor to end of line.
+ BACKSPACE ................................ Delete char to left of cursor.
+ DELETE ......................... ESC-x ... Delete char under cursor.
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.
+ UpArrow ........................ ESC-k ... Retrieve previous command line.
+ DownArrow ...................... ESC-j ... Retrieve next command line.
+ TAB ...................................... Complete filename & cycle.
+ SHIFT-TAB ...................... ESC-TAB   Complete filename & reverse cycle.
+ ctrl-L ................................... Complete filename, list all.
+
+
